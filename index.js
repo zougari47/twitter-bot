@@ -1,5 +1,6 @@
-const main = require('./bot');
+require('dotenv').config()
+const main = require('./bot')
 
 setInterval(() => {
-  main();
-}, 10000);
+  main()
+}, 10000)
